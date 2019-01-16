@@ -27,3 +27,11 @@ Encryption includes confidentiality and integrity. Encryption is taken care of b
 Algorithm and confidentiality by HMAC-SHA256. Symmetric key algorithm will be used for both,
 same key used for both encryption and MAC.VPN server will be authenticated using public key
 certificates.
+
+For this project, a variety of linux commad line utilties were used:
+
+## Steps 
+
+### Setting up the TUN-TAP interface
+
+1. 
