@@ -34,4 +34,8 @@ For this project, a variety of linux commad line utilties were used:
 
 ### Setting up the TUN-TAP interface
 
-1. 
+- TUN and TAP are virtual network kernel drivers; they implement network device thatare supported entirely in software. When a program is attached to a TUN/TAP interface, the IP packets that the computer sends to this interface will be piped into the program; on the other hand, the IP packets that the program sends to the interface will be piped into the computer, as if they came from the outside through this virtual network interface.
+
+1. Firstly, we create a host-host tunnel using the TUN interface using a simple C program.
+
+![host-hosttunnel](network-security/images/1.JPG)
