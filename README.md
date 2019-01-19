@@ -38,4 +38,6 @@ For this project, a variety of linux commad line utilties were used:
 
 1. Firstly, we create a host-host tunnel using the TUN interface using a simple C program.
 
+`$ gcc -o simpletun simpletun.c`
+
 ![host-hosttunnel](network-security/images/1.JPG)
