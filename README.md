@@ -42,4 +42,6 @@ For this project, a variety of linux commad line utilties were used:
 
 ![host-hosttunnel](network-security/images/1.JPG)
 
-2. Launching two virtual machines to create the host-host tunnel. One side of the tunnel acts as the server
+2. Launching two virtual machines to create the host-host tunnel. One side of the tunnel acts as the server and the other the client. Once the tunnel is established, there is no difference between client and server; they are simply two ends of a tunnel.
+
+`# ./simpletun -i tun0 -s -d`
