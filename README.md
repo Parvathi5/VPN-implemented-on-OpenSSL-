@@ -45,11 +45,15 @@ For this project, a variety of linux commad line utilties were used:
 2. Launching two virtual machines to create the host-host tunnel. One side of the tunnel acts as the server and the other the client. Once the tunnel is established, there is no difference between client and server; they are simply two ends of a tunnel.
 
 `# ./simpletun -i tun0 -s -d`
+
 `# ip addr add 10.0.4.1/24 dev tun0`
+
 `# ifconfig tun0 up`
 
 - The "-s" flag is used on the VM that acts as the server side of the tunnel, likewise a "-c" flag is used on the client side VM.
 
 `# ./simpletun -i tun0 -c 192.168.10.5 -d`
+
 `# ip addr add 10.0.5.1/24 dev tun0`
+
 `# ifconfig tun0 up`
