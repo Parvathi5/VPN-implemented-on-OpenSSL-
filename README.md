@@ -57,3 +57,9 @@ For this project, a variety of linux commad line utilties were used:
 `# ip addr add 10.0.5.1/24 dev tun0`
 
 `# ifconfig tun0 up`
+
+- After this step, the tunnel is set up.
+
+3. The following routing table entry directs all the packets to the 10.0.5.0/24 network (10.0.4.0/24 network for the second command) through the interface tun0, from where the packet will be hauled through the tunnel.
+
+`# route add -net 10.0.5.0 netmask 255.255.255.0 dev tun0`
