@@ -32,7 +32,7 @@ For this project, a variety of linux commad line utilties were used:
 
 ## Steps 
 
-### Setting up the TUN-TAP interface
+### Task 1: Create a Host-to-Host Tunnel using TUN/TAP
 
 - TUN and TAP are virtual network kernel drivers; they implement network device thatare supported entirely in software. When a program is attached to a TUN/TAP interface, the IP packets that the computer sends to this interface will be piped into the program; on the other hand, the IP packets that the program sends to the interface will be piped into the computer, as if they came from the outside through this virtual network interface.
 
@@ -63,3 +63,7 @@ For this project, a variety of linux commad line utilties were used:
 3. The following routing table entry directs all the packets to the 10.0.5.0/24 network (10.0.4.0/24 network for the second command) through the interface tun0, from where the packet will be hauled through the tunnel.
 
 `# route add -net 10.0.5.0 netmask 255.255.255.0 dev tun0`
+
+### Task 2: Create a Host-to-Gateway Tunnel
+
+
