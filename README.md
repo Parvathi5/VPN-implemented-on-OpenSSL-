@@ -71,3 +71,7 @@ Setup a tunnel between two VM's on two different host machines.
 ### Task 3: Create a Gateway-to-Gateway Tunnel
 
 A gateway-gateway tunnel is similarly setup.
+
+### Task 4: VPN tunnel
+
+A real VPN software usually supports a number of different encryption algorithms.
