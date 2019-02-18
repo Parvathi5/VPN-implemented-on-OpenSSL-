@@ -69,3 +69,5 @@ For this project, a variety of linux commad line utilties were used:
 Setup a tunnel between two VM's on two different host machines.
 
 ### Task 3: Create a Gateway-to-Gateway Tunnel
+
+A gateway-gateway tunnel is similarly setup.
