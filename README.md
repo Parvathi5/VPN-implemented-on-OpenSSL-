@@ -74,4 +74,4 @@ A gateway-gateway tunnel is similarly setup.
 
 ### Task 4: VPN tunnel
 
-A real VPN software usually supports a number of different encryption algorithms.
+A real VPN software usually supports a number of different encryption algorithms. The implemetation in this project supports the AES encryption algorithm, and uses the Cipher Block Chaining (CBC) mode.
