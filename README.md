@@ -75,3 +75,5 @@ A gateway-gateway tunnel is similarly setup.
 ### Task 4: VPN tunnel
 
 A real VPN software usually supports a number of different encryption algorithms. The implemetation in this project supports the AES encryption algorithm, and uses the Cipher Block Chaining (CBC) mode.
+
+The AES encryption algorithm and the HMAC-SHA256 algorithm are both implemented in the OpenSSL library. There are plenty of online documents explaining how to use the OpenSSL’s crypto libraries.
