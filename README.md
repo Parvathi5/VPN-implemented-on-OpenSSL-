@@ -82,4 +82,4 @@ Both encryption and MAC need a secret key. Although the keys can be different fo
 
 ### Task 5: Creating a Certificate Authority
 
-I
+In order to create certificates, we needed a CA.
