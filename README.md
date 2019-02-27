@@ -82,4 +82,4 @@ Both encryption and MAC need a secret key. Although the keys can be different fo
 
 ### Task 5: Creating a Certificate Authority
 
-In order to create certificates, we needed a CA. The .cnf (configuration file) was used to create the CA.
+In order to create certificates, we needed a CA. The .cnf (configuration file)from the OpenSSL libraries was used to create the CA.
