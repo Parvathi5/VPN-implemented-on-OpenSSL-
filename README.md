@@ -1,4 +1,4 @@
-# VPN-implemented-on-OpenSSL-
+s# VPN-implemented-on-OpenSSL-
 
 The objective of this project is to implement a VPN. Many recent technological advances have
 not only meant a shift toward industrial and retail globalization but also an increase in customer
@@ -79,3 +79,7 @@ A real VPN software usually supports a number of different encryption algorithms
 The AES encryption algorithm and the HMAC-SHA256 algorithm are both implemented in the OpenSSL library. There are plenty of online documents explaining how to use the OpenSSL’s crypto libraries.
 
 Both encryption and MAC need a secret key. Although the keys can be different for encryption and MAC, for the sake of simplicity, we assume that the same key is used. This key has to be agreed upon by both sides of the VPN. For this task, we assume that the key is already provided. Agreeing upon the key will be implemented in the next task. For encryption, the client and the server also need to agree upon an Initial Vector (IV).
+
+### Task 5: Creating a Certificate Authority
+
+I
