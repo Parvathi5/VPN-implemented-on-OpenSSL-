@@ -86,3 +86,6 @@ In order to create certificates, we needed a CA. The .cnf (configuration file)fr
 The following command is used to generate a CA:
 
 `$ openssl req -new -x509 -keyout ca.key -out ca.crt -config openssl.cnf`
+
+The output of the command are stored in two files: ca.key and ca.crt. The file ca.key contains the CA’s private key, while ca.crt
+contains the public-key certificate.
