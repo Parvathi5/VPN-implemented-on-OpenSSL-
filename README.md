@@ -1,4 +1,4 @@
-s# VPN-implemented-on-OpenSSL-
+# VPN-implemented-on-OpenSSL-
 
 The objective of this project is to implement a VPN. Many recent technological advances have
 not only meant a shift toward industrial and retail globalization but also an increase in customer
